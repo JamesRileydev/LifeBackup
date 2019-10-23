@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jim\\source\\repos\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {}
+    "C:\\Users\\Jim\\_Dev\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jim\\source\\repos\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+    "C:\\Users\\Jim\\_Dev\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jim\\source\\repos\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Jim\\_Dev\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
         "projectName": "LifeBackup.Core",
-        "projectPath": "C:\\Users\\Jim\\source\\repos\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "projectPath": "C:\\Users\\Jim\\_Dev\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
         "packagesPath": "C:\\Users\\Jim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jim\\source\\repos\\LifeBackup\\LifeBackup.Core\\obj\\",
+        "outputPath": "C:\\Users\\Jim\\_Dev\\LifeBackup\\LifeBackup.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -39,23 +39,20 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     }
